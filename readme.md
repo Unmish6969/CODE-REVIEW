@@ -17,20 +17,24 @@ code-review/
 
 ```bash
 git clone https://github.com/Unmish6969/CODE-REVIEW.git
-
+```
 2. Setup Backend
 
 ```bash
 cd Backend
 npm install
+```
 Create a .env file inside Backend/
+```bash
 GOOGLE_GEMINI_KEY=your_google_gemini_api_key
+```
 You can get your API key from:https://aistudio.google.com/app/apikey
 Start the backend:
 ```bash
 node server.js
 # or for dev
 npx nodemon
+```
 
 
 3. Setup Frontend
@@ -38,9 +42,9 @@ npx nodemon
 ```bash
 cd ../frontend
 npm install
-
+```
 Run the frontend dev server:
 ```bash
 npm run dev
-
+```
 Visit http://localhost:5173 in your browser.
